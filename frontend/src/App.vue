@@ -1,6 +1,7 @@
 <template>
     <main id="tencotools">
-        <h2>Hello from vue</h2>
+        <h1>TencoTools</h1>
+        <router-view></router-view>
     </main>
 </template>
 
@@ -13,6 +14,6 @@ export default {
 
 <style>
 #tencotools {
-    background-color: red;
+    background-color: lightgray;
 }
 </style>
