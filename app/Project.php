@@ -1,13 +1,16 @@
 <?php
 
-namespace tencotools;
+namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
 class Project extends Model
 {
+
+
+	protected $table = 'projects';
     
-    protected $dates = ['deadline'];
+    protected $dates = ['deadline', 'close_date'];
 
 	// protect against massassignment
 	protected $fillable = [
